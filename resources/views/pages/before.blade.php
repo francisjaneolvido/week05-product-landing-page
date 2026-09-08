@@ -66,7 +66,7 @@
 
 
             <div
-                class="flex min-h-[300px]
+                class="flex min-h-75
                        items-center justify-center
                        bg-gray-200"
             >

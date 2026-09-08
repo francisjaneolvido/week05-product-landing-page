@@ -10,12 +10,16 @@
     >
 
         {{-- LOGO --}}
-        <a href="#home" class="flex items-center gap-3">
+        <a
+            href="#home"
+            class="flex items-center gap-3"
+        >
 
             <img
                 src="{{ asset('images/logo.jpg') }}"
                 alt="SmokeHouse Logo"
-                class="h-10 w-10 rounded-lg object-cover
+                class="h-10 w-10
+                       rounded-lg object-cover
                        sm:h-11 sm:w-11"
             >
 
@@ -46,7 +50,7 @@
             class="hidden items-center gap-7
                    text-sm font-medium
                    text-zinc-400
-                   md:flex"
+                   lg:flex"
         >
 
             <a
@@ -93,7 +97,10 @@
 
 
         {{-- DESKTOP BUTTONS --}}
-        <div class="hidden items-center gap-3 md:flex">
+        <div
+            class="hidden items-center gap-3
+                   lg:flex"
+        >
 
             <a
                 href="#"
@@ -122,7 +129,7 @@
         </div>
 
 
-        {{-- MOBILE MENU BUTTON --}}
+        {{-- MOBILE / TABLET MENU BUTTON --}}
         <button
             id="mobile-menu-button"
             type="button"
@@ -134,26 +141,29 @@
                    border border-white/10
                    bg-[#111111]
                    text-xl text-white
-                   md:hidden"
+                   lg:hidden"
         >
-            <span id="menu-icon">☰</span>
+            <span id="menu-icon">
+                ☰
+            </span>
         </button>
 
     </div>
 
 
-    {{-- MOBILE NAVIGATION --}}
+    {{-- MOBILE / TABLET NAVIGATION --}}
     <div
         id="mobile-menu"
-        class="hidden border-t
-               border-white/10
+        class="hidden
+               border-t border-white/10
                bg-[#0C0C0C]
-               md:hidden"
+               lg:hidden"
     >
 
         <div
             class="mx-auto flex max-w-7xl
-                   flex-col px-5 py-5"
+                   flex-col px-5 py-5
+                   sm:px-6"
         >
 
             <a
@@ -161,7 +171,9 @@
                 class="mobile-nav-link
                        border-b border-white/5
                        py-3 text-sm
-                       font-medium text-zinc-300"
+                       font-medium text-zinc-300
+                       transition
+                       hover:text-[#F4510B]"
             >
                 Home
             </a>
@@ -171,7 +183,9 @@
                 class="mobile-nav-link
                        border-b border-white/5
                        py-3 text-sm
-                       font-medium text-zinc-300"
+                       font-medium text-zinc-300
+                       transition
+                       hover:text-[#F4510B]"
             >
                 Features
             </a>
@@ -181,7 +195,9 @@
                 class="mobile-nav-link
                        border-b border-white/5
                        py-3 text-sm
-                       font-medium text-zinc-300"
+                       font-medium text-zinc-300
+                       transition
+                       hover:text-[#F4510B]"
             >
                 Pricing
             </a>
@@ -191,7 +207,9 @@
                 class="mobile-nav-link
                        border-b border-white/5
                        py-3 text-sm
-                       font-medium text-zinc-300"
+                       font-medium text-zinc-300
+                       transition
+                       hover:text-[#F4510B]"
             >
                 Testimonials
             </a>
@@ -200,17 +218,24 @@
                 href="#contact"
                 class="mobile-nav-link
                        py-3 text-sm
-                       font-medium text-zinc-300"
+                       font-medium text-zinc-300
+                       transition
+                       hover:text-[#F4510B]"
             >
                 Contact
             </a>
 
 
-            <div class="mt-4 flex gap-3">
+            <div
+                class="mt-4 flex
+                       flex-col gap-3
+                       sm:flex-row"
+            >
 
                 <a
                     href="#"
-                    class="flex-1 rounded-full
+                    class="flex-1
+                           rounded-full
                            border border-white/10
                            px-4 py-3
                            text-center text-sm
@@ -222,7 +247,8 @@
                 <a
                     href="#pricing"
                     class="mobile-nav-link
-                           flex-1 rounded-full
+                           flex-1
+                           rounded-full
                            bg-[#F4510B]
                            px-4 py-3
                            text-center text-sm
@@ -236,4 +262,5 @@
         </div>
 
     </div>
+
 </nav>

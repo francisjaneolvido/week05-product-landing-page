@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
@@ -18,7 +19,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-[#090909] text-white antialiased">
+<body class="m-0 bg-[#080808] text-white antialiased">
 
     <x-navbar />
 
@@ -27,4 +28,5 @@
     </main>
 
 </body>
+
 </html>
