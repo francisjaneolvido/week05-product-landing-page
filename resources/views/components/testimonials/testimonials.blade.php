@@ -1,15 +1,25 @@
 <section
     id="testimonials"
     class="border-t border-white/5
-           bg-[#080808] py-24"
+           bg-[#080808]
+           py-20
+
+           md:py-24"
 >
     <div
         class="mx-auto max-w-7xl
-               px-6 lg:px-8"
+               px-5
+               sm:px-6
+               lg:px-8"
     >
 
         {{-- SECTION HEADER --}}
-        <div class="mb-14 max-w-2xl">
+        <div
+            class="mb-12
+                   max-w-2xl
+
+                   md:mb-14"
+        >
 
             <p
                 class="text-xs font-bold
@@ -20,13 +30,15 @@
                 Testimonials
             </p>
 
+
             <h2
                 class="mt-4
-                       text-4xl font-black
-                       uppercase
-                       tracking-tight
+                       text-3xl font-black
+                       uppercase tracking-tight
                        text-[#F7F3ED]
-                       sm:text-5xl"
+
+                       sm:text-4xl
+                       md:text-5xl"
             >
                 What Customers
                 <br>
@@ -37,11 +49,15 @@
                 </span>
             </h2>
 
+
             <p
                 class="mt-5
                        max-w-xl
-                       text-base leading-7
-                       text-zinc-500"
+                       text-sm leading-6
+                       text-zinc-500
+
+                       sm:text-base
+                       sm:leading-7"
             >
                 From quick takeout meals to casual dine-in
                 moments, SmokeHouse is made for people
@@ -54,7 +70,9 @@
         {{-- TESTIMONIAL GRID --}}
         <div
             class="grid gap-6
+
                    md:grid-cols-2
+
                    lg:grid-cols-3"
         >
 
@@ -93,7 +111,8 @@
                    text-[11px]
                    text-zinc-600"
         >
-            Sample customer testimonials created for academic project demonstration.
+            Sample customer testimonials created
+            for academic project demonstration.
         </p>
 
     </div>
