@@ -855,7 +855,7 @@ https://github.com/francisjaneolvido/week05-product-landing-page.git
 
 # Author
 
-**Name:** francis Jane Olvido  
+**Name:** Francis Jane Olvido  
 **Course:** ITST 302 – Client-Server Technologies  
 **Week:** Week 5  
 **Project:** Mini Project 04 – Responsive Product Landing Page  
